@@ -65,4 +65,113 @@ Dataset quality, relationships and suitability for analysis are being validated.
 | Python | Data analysis and processing |
 | Pandas | Data cleaning and transformation |
 | NumPy | Numerical operations |
-| Matplotlib /
+| Matplotlib / Seaborn | Exploratory data visualisation |
+| SQL / Oracle SQL | Business data analysis |
+| Microsoft Power BI | Interactive dashboards |
+| DAX | KPI calculations and measures |
+| Excel | Data inspection and reporting |
+| Git and GitHub | Version control and portfolio publication |
+
+## 6. Project Workflow
+
+1. Business Understanding
+2. Data Understanding and Profiling
+3. Data Quality Assessment
+4. Data Cleaning
+5. Data Transformation
+6. Feature Engineering
+7. Exploratory Data Analysis
+8. SQL Business Analysis
+9. Customer Segmentation
+10. Power BI Dashboard Development
+11. Business Recommendations
+12. Final Reporting and Documentation
+
+## 7. Key Business Questions
+
+- Which age categories have promising spending behaviour?
+- Which occupations demonstrate higher average annual income?
+- Which income groups contribute the most transaction value?
+- Which product categories are popular among different customer segments?
+- How do spending patterns differ across locations?
+- Which customer profiles should the marketing team investigate?
+- What additional information is required to evaluate competitor positioning and campaign effectiveness?
+
+## 8. Planned Dashboard
+
+The Power BI report is planned to contain three pages:
+
+1. Executive Overview
+2. Customer Segmentation
+3. Credit Card Acquisition Strategy
+
+Dashboard screenshots and verified findings will be added after development.
+
+## 9. Project Structure
+
+```text
+Target_Audience_Analysis/
+│
+├── Data/
+│   └── Raw_Data/
+│
+├── Documentation/
+│   ├── Business_Requirements.md
+│   └── Data_Model_and_KPI_Definitions.md
+│
+├── Notebooks/
+│   └── 01_Data_Profiling.ipynb
+│
+├── Python/
+├── SQL/
+├── PowerBI/
+├── Images/
+├── Reports/
+├── Github/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+The structure and deliverables will be expanded as the project progresses.
+
+## 10. Current Data Quality Observations
+
+Initial validation identified:
+
+- 1,000 unique customer IDs in the customer dataset.
+- Four duplicated customer IDs in the credit-profile dataset.
+- 500,000 unique transaction IDs.
+- No unmatched non-null customer IDs in the initial relationship checks.
+- A campaign dataset containing 62 daily observations.
+
+These observations are preliminary. Further profiling and investigation are required before final cleaning decisions.
+
+## 11. Important Limitations
+
+The available data does not directly identify competitor bank relationships, existing credit card ownership, marketing conversion outcomes or customer acquisition costs.
+
+Therefore, the project will identify promising customer segments based on observed characteristics and transaction behaviour.
+
+It will not claim confirmed competitor market share, actual marketing ROI or individual credit card purchase probabilities without additional validated data.
+
+## 12. Final Deliverables
+
+Planned deliverables include:
+
+- Python analysis notebooks
+- Cleaned and transformed datasets
+- Feature engineering documentation
+- SQL business analysis scripts
+- Customer segmentation findings
+- Power BI dashboard
+- Business recommendations
+- Executive report
+- Data dictionary and data quality documentation
+
+## 13. Project Completion Target
+
+**Target Completion Date: 9 December 2026**
+
+The repository will be updated throughout the project with reproducible analysis, documented methodology and verified business findings.
