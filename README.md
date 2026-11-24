@@ -1,46 +1,68 @@
 # Target Audience Analysis
+## Data-Driven Credit Card Customer Acquisition Strategy
 
-## Project Overview
+**Project Status:** In Progress  
+**Domain:** Banking and Financial Services (BFSI)  
+**Project Type:** End-to-End Data Analytics
 
-This project analyzes customer and demographic data to identify target audience segments and generate actionable business insights.
+---
 
-## Objective
+## 1. Project Overview
 
-The objective of this project is to understand customer characteristics and identify suitable audience segments for targeted marketing and business decision-making.
+This project aims to analyse customer demographics, income, occupational profiles, credit characteristics and transaction behaviour to identify promising customer segments for credit card marketing.
 
-## Tools & Technologies
+The objective is to help a bank understand its customer base, identify potential target audiences and develop evidence-based customer acquisition strategies in a competitive banking market.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Excel
-- SQL
-- Power BI
+The project uses Python, SQL and Power BI to transform raw customer and transaction data into meaningful business insights.
 
-## Project Workflow
+## 2. Real-World Business Problem
 
-1. Data Collection
-2. Data Cleaning
-3. Data Exploration
-4. Data Transformation
-5. Exploratory Data Analysis
-6. SQL Analysis
-7. Power BI Dashboard
-8. Business Insights
+Banks operate in a competitive credit card market where customers receive different offers involving cashback, rewards, discounts, annual fees and other benefits.
 
-## Project Structure
+A bank needs to understand which customer profiles demonstrate promising spending behaviour and which customer segments should be investigated further by its marketing team.
 
-```text
-Target_Audience_Analysis/
-├── Data/
-├── Documentation/
-├── Images/
-├── PowerBI/
-├── Python/
-├── Reports/
-├── SQL/
-├── .gitignore
-├── README.md
-└── requirements.
+This project addresses the following business challenge:
+
+**How can a bank use customer and transaction data to identify promising target audiences and improve its credit card marketing strategy?**
+
+## 3. Project Objectives
+
+- Analyse customer distribution across different age categories.
+- Understand annual income patterns across occupations.
+- Examine customer spending behaviour and transaction frequency.
+- Analyse credit profiles and their relationship with customer characteristics.
+- Identify customer segments with promising spending patterns.
+- Understand product-category preferences across customer segments.
+- Develop data-driven customer acquisition recommendations.
+- Present findings through interactive Power BI dashboards.
+
+## 4. Datasets
+
+The project currently contains four source CSV files.
+
+| Dataset | Description |
+|---|---|
+| customers.csv | Customer demographics, age, occupation, income and location |
+| credit_profiles.csv | Credit scores, credit utilisation, outstanding debt and credit limits |
+| transactions.csv | Customer transactions, dates, amounts, platforms and product categories |
+| avg_transactions_after_campaign.csv | Daily average transaction metrics for test and control groups |
+
+Initial dataset sizes:
+
+| Dataset | Rows |
+|---|---:|
+| Customers | 1,000 |
+| Credit Profiles | 1,004 |
+| Transactions | 500,000 |
+| Campaign | 62 |
+
+Dataset quality, relationships and suitability for analysis are being validated.
+
+## 5. Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Data analysis and processing |
+| Pandas | Data cleaning and transformation |
+| NumPy | Numerical operations |
+| Matplotlib /
